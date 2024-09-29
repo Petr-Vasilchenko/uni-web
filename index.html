@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Задание первое</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="Логотип">
+            <h1>Название сайта</h1>
+            <nav>
+                <ul>
+                    <li><a href="#lilink">Ссылка 1</a></li>
+                    <li><a href="#tabletab">Ссылка 2</a></li>
+                    <li><a href="#regform">Ссылка 3</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Начало задания 1 -->
+        <main>
+            <div id="lilink" class="lilink">
+                <ol>
+                    <li>
+                        <a href="http://kubsu.ru">КубГУ</a>
+                    </li>
+                    <li>
+                        <a href="https://kubsu.ru">Ссылка на КубГУ с https</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="image.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#внутренняя-страница">Сокращенная ссылка на внутреннюю страницу</a>
+                    </li>
+                    <li>
+                        <a href="/" id="fragment">Сокращенная ссылка на главную страницу</a>
+                    </li>
+                    <li>
+                        <a href="#fragment">Ссылка на фрагмент текущей страницы</a>
+                    </li>
+                    <li>
+                        <a href="http://abc.com/search?str=helloworld&lang=en&id=12345">Ссылка с тремя параметрами</a>
+                    </li>
+                    <li>
+                        <a id="fragment" href="http://abc.com/user?id=fragment">Фрагмент текущей страницы с парматером id</a>
+                    </li>
+                    <li>
+                        <a href="bio.html">Ссылка на страницу в текущем каталоге</a>
+                    </li>
+                    <li>
+                        <a href="about/about.html">Ссылка на страницу в каталоге about</a>
+                    </li>
+                    <li>
+                        <a href="../bio.html">Ссылка на страницу в родительском каталоге</a>
+                    </li>
+                    <li>
+                        <a href="../../up_up_page.html">Ссылка на страницу на два уровня выше</a>
+                    </li>
+                    <li>
+                        <p>В этом абзаце есть <a href="something_page.html">ссылка на какую-то страницу</a>.</p>
+                    </li>
+                    <li>
+                        <a href="https://anyway.com/index.html#fragment">Ссылка на фрагмент страницы стороннего сайта</a>
+                    </li>
+                    <li>
+                        <img src="image.png" usemap="#map">
+                        <map name="map">
+                        <area shape="rect" coords="10,10,50,50" href="page1.html">
+                        <area shape="circle" coords="100,100,50" href="page2.html">
+                        </map>
+                    </li>
+                    <li>
+                        <a href="">Ссылка с пустым href</a>
+                    </li>
+                    <li>
+                        <a>Ссылка без href</a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" href="nofollow_page.html">Ссылка, по которой запрещен переход поисковикам</a>
+                    </li>
+                    <li>
+                        <a href="noindex_page.html" robots="noindex">Ссылка, которую запрещенно индексировать поисковикам</a>
+                    </li>
+                    <li>
+                        <ol>
+                            <li><a href="page1.html" title="Первая страница">Первая страница</a></li>
+                            <li><a href="page2.html" title="Вторая страница">Вторая страница</a></li>
+                            <li><a href="page3.html" title="Третья страница">Третья страница</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="ftp://username:password@ftp.example.com/file.txt">Скачать файл с FTP-сервера</a>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Конец задания 1  -->
+
+            <!--  Начало таблицы -->
+            <div id="tabletab">
+                <table>
+                    <tr>
+                        <th>
+                            Название колонки 1
+                        </th>
+                        <th>
+                            Название колонки 2
+                        </th>
+                        <th>
+                            Название колонки 3
+                        </th>
+                        <th>
+                            Название колонки 4
+                        </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            Содержимое ячейки 1
+                        </td>
+                        <td>
+                            Содержимое ячейки 2
+                        </td>
+                        <td>
+                            Содержимое ячейки 3
+                        </td>
+                        <td>
+                            Содержимое ячейки 4
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            Содержимое ячейки 5
+                        </td>
+                        <td>
+                            Содержимое ячейки 6
+                        </td>
+                        <td>
+                            Содержимое ячейки 7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Содержимое объединенной ячейки 1
+                        </td>
+                        <td>
+                            Содержимое ячейки 8
+                        </td>
+                        <td>
+                            Содержимое ячейки 9
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            Содержимое ячейки 10
+                        </td>
+                        <td>
+                            Содержимое ячейки 11
+                        </td>
+                        <td>
+                            Содержимое ячейки 12
+                        </td>
+                        <td>
+                            Содержимое ячейки 13
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Содержимое ячейки 14
+                        </td>
+                        <td>
+                            Содержимое ячейки 15
+                        </td>
+                        <td>
+                            Содержимое ячейки 16
+                        </td>
+                        <td rowspan="2">
+                            Содержимое объединенной ячейки 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Содержимое ячейки 17
+                        </td>
+                        <td>
+                            Содержимое ячейки 18
+                        </td>
+                        <td>
+                            Содержимое ячейки 19
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Конец таблицы -->
+
+            <!-- Начало формы -->
+            <div id="regform" class="regform">
+                <form>
+                    <label for="name">ФИО:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="phone">Телефон:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="dr">Дата рождения:</label><br>
+                    <input type="date" id="dr" name="dr"><br>
+                    <p>Пол:</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Мужской</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Женский</label><br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+        </main>
+        <!-- Конец формы -->
+
+        <footer>
+            <p>Подвал сайта &copy; 2023</p>
+        </footer>
+    </body>
+    <footer>
+
+    </footer>
+</html>
